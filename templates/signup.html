@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<style>
+    bg{
+    background: url("");
+}
+.form-container{
+    border:0px solid black;padding: 50px 60px;margin-top:20vh;
+    -webkit-box-shadow: -2px 1px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 5px 2px rgba(0,0,0,0.75);
+}
+</style>
+    <title>facepy/register</title>
+    <link  rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid bg">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+            <form class="form-container">
+                <h2>Signup</h2>
+                <label style="margin-left: auto;padding-inline:13px;color: black"> First name :</label>
+                <input style="width: 80%"type="text" class="form-control" placeholder="First name">
+
+                <label style="color: black"> Last name :</label>
+                <input style="width: 80%"type="text" class="form-control" placeholder="Last name">
+
+                <label style="color: black" for="inputEmail4">Email :</label>
+                <input style="width: 80%" type="email" class="form-control" id="inputEmail4">
+
+                <label for="inputPassword4">Password :</label>
+                <input style="text-align:left;width: 80%" type="password" class="form-control" id="inputPassword4">
+
+                <label for="inputState">Branch</label>
+                <select style="width: 80%" id="inputState" class="form-control">
+                    <option >CSE</option>
+                    <option>EEE</option>
+                    <option>ECE</option>
+                    <option>MECH</option>
+                </select>
+                <input  style="border-radius: 15px" class="btn btn-success " type="submit" value="Submit">
+                <input style="border-radius: 15px" class="btn btn-success " type="reset">
+            </form>
+
+        </div>
+
+    </div>
+</div>
+</form>
+
+</body>
+</html>
